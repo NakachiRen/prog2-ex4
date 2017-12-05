@@ -31,17 +31,18 @@ class名 Player
 フィールド変数
 
 Playerの現在位置を表す変数
-Private int Xlocaition
-Private int Ylocaition
+Private int Xlocation
+Private int Ylocation
 
 歩数のカウントを保存する変数
 Private int player_steps_counter
 
 
 迷路を動かす機能
-
+Player(movingDirection)//up,down.right.left
 上下左右に動く機能
 壁に当たったら動けない
 空白は動ける
+X,Ylocationに現在地を代入
 
 getter/setterあり

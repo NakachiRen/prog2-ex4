@@ -1,0 +1,26 @@
+class名　Map
+
+フィールド変数
+
+スタート地点を表す変数
+private int Xstart
+private int Ystart
+
+迷路の大きさを表す変数
+private int Xsize
+private int Ysize
+
+迷路情報
+private String G="G,ゴール,移動可"
+private String s="s,スタート,移動可"
+private String wall="#,壁,移動不可"
+private String air="¥ ,空白,移動可"
+
+
+コンストラクタ
+
+Map(failename)
+テキストファイルの読み込み
+フィールド変数への代入
+
+getter/setter
